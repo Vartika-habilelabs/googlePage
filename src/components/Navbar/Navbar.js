@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DotsImg from "../../assets/icons/hamburger.png";
+import { DotsImg } from "../../assets";
 import "./Navbar.css";
 const Navbar = () => {
   const [toShow, setToShow] = useState(false);

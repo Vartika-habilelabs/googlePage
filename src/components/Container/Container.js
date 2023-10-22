@@ -1,9 +1,4 @@
-import GoogleImg from "../../assets/images/google.png";
-import SearchImg from "../../assets/icons/search.svg";
-import VoiceImg from "../../assets/icons/voice.png";
-import LensImg from "../../assets/icons/lens.jpg";
-import PlusImg from "../../assets/icons/plus.svg";
-
+import { GoogleImg, SearchImg, VoiceImg, LensImg, PlusImg } from "../../assets";
 import "./Container.css";
 const Container = () => {
   const handleClick = () => {

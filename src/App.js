@@ -1,9 +1,7 @@
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/Navbar";
-import Container from "./components/Container/Container";
+import { Footer, Navbar, Container } from "./components";
 
-const App=()=>{
+const App = () => {
   return (
     <>
       <Navbar />
@@ -11,6 +9,6 @@ const App=()=>{
       <Footer />
     </>
   );
-}
+};
 
 export default App;
