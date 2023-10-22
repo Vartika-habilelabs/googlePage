@@ -1,7 +1,7 @@
 html {
   font-size: 62.5%;
 }
-.navbarcontainer{
+.navbarcontainer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -21,19 +21,19 @@ html {
 .navbar a:hover {
   text-decoration: underline;
 }
-.navbarbtn{
-  background:none;
+.navbarbtn {
+  background: none;
   border: none;
-  padding:0.4rem 0 0 1rem;
+  padding: 0.4rem 0 0 1rem;
   cursor: pointer;
 }
-.secretdiv{
+.secretdiv {
   background-color: aliceblue;
-  min-width:10vw;
-  min-height: 2vh ;
-  padding:1rem 2rem;
-  border-radius:1.2rem;
+  min-width: 10vw;
+  min-height: 2vh;
+  padding: 1rem 2rem;
+  border-radius: 1.2rem;
 }
-.secretdiv p{
+.secretdiv p {
   font-size: 1.5rem;
 }

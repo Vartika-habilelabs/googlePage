@@ -1,11 +1,10 @@
-
-.bodycontainer{
+.bodycontainer {
   display: flex;
   flex-direction: column;
 }
-.maincontainerapp{
-  flex:2;
+.maincontainerapp {
+  flex: 2;
 }
-.footerconatinerapp{
-  flex:1;
+.footerconatinerapp {
+  flex: 1;
 }
