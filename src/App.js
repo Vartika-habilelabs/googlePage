@@ -1,13 +1,13 @@
 import "./App.css";
-import Footer from "./Components/Footer/footer";
-import Main from "./Components/Mainbody/mainbody";
-import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Container from "./components/Container/Container";
 
-function App() {
+const App=()=>{
   return (
     <>
       <Navbar />
-      <Main />
+      <Container />
       <Footer />
     </>
   );

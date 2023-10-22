@@ -1,13 +1,14 @@
-import GoogleImg from "../../assets/google.png";
-import SearchImg from "../../assets/search.svg";
-import VoiceImg from "../../assets/voice.png";
-import LensImg from "../../assets/lens.jpg";
-import PlusImg from "../../assets/plus.svg";
-import "./mainbody.css";
-const Main = () => {
-  const handleClick=()=>{
-    alert("Will add functionality soon .. I'm just a trainee")
-  }
+import GoogleImg from "../../assets/images/google.png";
+import SearchImg from "../../assets/icons/search.svg";
+import VoiceImg from "../../assets/icons/voice.png";
+import LensImg from "../../assets/icons/lens.jpg";
+import PlusImg from "../../assets/icons/plus.svg";
+
+import "./Container.css";
+const Container = () => {
+  const handleClick = () => {
+    alert("Will add functionality soon .. I'm just a trainee");
+  };
   return (
     <div className="container">
       <div className="logocontainer">
@@ -31,13 +32,12 @@ const Main = () => {
         </div>
       </div>
       <button onClick={handleClick} className="shortcutcontainer">
-      <div className="shortcut">
-       <img className="shortcutimg" src={PlusImg} alt=""></img>
-      </div>
-      <p>Add shortcut</p>
+        <div className="shortcut">
+          <img className="shortcutimg" src={PlusImg} alt=""></img>
+        </div>
+        <p>Add shortcut</p>
       </button>
-     
     </div>
   );
 };
-export default Main;
+export default Container;
