@@ -1,0 +1,17 @@
+
+html{
+    font-size: 62.5%;
+}
+.footercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(241, 243, 244, 1.00) ;
+    padding: 2rem;
+}
+.footerelement{
+    display: inline-block;
+}
+.footerelement p,a{
+ font-size: 1.5rem;
+}

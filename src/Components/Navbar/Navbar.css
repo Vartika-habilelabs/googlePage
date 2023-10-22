@@ -1,0 +1,39 @@
+html {
+  font-size: 62.5%;
+}
+.navbarcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1rem 2rem 0 0;
+}
+.navbar {
+  display: flex;
+  gap: 1rem;
+  padding: 3rem 3rem;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.navbarbtn{
+  background:none;
+  border: none;
+  padding:0.4rem 0 0 1rem;
+  cursor: pointer;
+}
+.secretdiv{
+  background-color: aliceblue;
+  min-width:10vw;
+  min-height: 2vh ;
+  padding:1rem 2rem;
+  border-radius:1.2rem;
+}
+.secretdiv p{
+  font-size: 1.5rem;
+}
