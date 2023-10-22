@@ -3,8 +3,9 @@ import SearchImg from "../../assets/icons/search.svg";
 import VoiceImg from "../../assets/icons/voice.png";
 import LensImg from "../../assets/icons/lens.jpg";
 import PlusImg from "../../assets/icons/plus.svg";
-import "./Search.css";
-const Search = () => {
+
+import "./Container.css";
+const Container = () => {
   const handleClick = () => {
     alert("Will add functionality soon .. I'm just a trainee");
   };
@@ -39,4 +40,4 @@ const Search = () => {
     </div>
   );
 };
-export default Search;
+export default Container;
