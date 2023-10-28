@@ -1,17 +1,23 @@
-html {
-  font-size: 62.5%;
-}
-.footercontainer {
+.footer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgba(241, 243, 244, 1);
   padding: 2rem;
+  gap: 1rem;
 }
-.footerelement {
+.footer-element {
   display: inline-block;
 }
-.footerelement p,
+.footer-element p,
 a {
+  margin:0;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
