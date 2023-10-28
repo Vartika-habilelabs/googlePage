@@ -1,0 +1,36 @@
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1rem 2rem 0 0;
+}
+.navbar {
+  display: flex;
+  gap: 1rem;
+  padding: 3rem 3rem;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.navbar-btn {
+  background: none;
+  border: none;
+  padding: 0.4rem 0 0 1rem;
+  cursor: pointer;
+}
+.secret-div {
+  background-color: aliceblue;
+  min-width: 10vw;
+  min-height: 2vh;
+  padding: 1rem 2rem;
+  border-radius: 1.2rem;
+}
+.secret-div p {
+  font-size: 1.5rem;
+}
